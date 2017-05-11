@@ -6,7 +6,7 @@ In general,
 nCr =	n!/r!/(n−r)!
 ,where r ≤ n, n! = n×(n−1)×...×3×2×1, and 0! = 1.
 It is not until n = 23, that a value exceeds one-million: 23C10 = 1144066.
-How many, not necessarily distinct, values of  nCr, for 1 ≤ n ≤ 100, are greater than one-million?*
+How many, not necessarily distinct, values of  nCr, for 1 ≤ n ≤ 100, are greater than one-million?*/
 // Note that any negative numbered result from addition of two positive number will be necessarily larger than 1000000
 // So this fact is used in the program. solution is :4075
 
