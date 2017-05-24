@@ -30,17 +30,11 @@ public class NamesScores
 		String[] words = text.split("\\W+");
 		String[] sortedWords= new String[words.length];
 		TopDownMergeSort(words,sortedWords,words.length);
-		 for (int i=0;i<1000;i++) {
 
-		       System.out.println(sortedWords[i]);
-		  }
-		String ex=sortedWords[0].substring(0);
-		System.out.println(ex);
-		System.out.println(valueOfString(ex));
 		long sum=0;
 		for(int i=1;i<sortedWords.length;i++)
 		{
-			sum=sum+valueOfString(sortedWords[i])*(long)(i);
+			sum=sum+valueOfString(words[i])*(long)(i);
 		}
 		System.out.println(sum);
 	}
