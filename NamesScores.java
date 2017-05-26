@@ -17,7 +17,7 @@ public class NamesScores
 
 	public static void main(String[] args) throws Exception
 	{
-		FileReader file = new FileReader("C:/Users/hzhang127/workspace/p022_names.txt");
+		FileReader file = new FileReader("FIlePath");
 		BufferedReader reader= new BufferedReader(file);
 		String text ="";
 		String line=reader.readLine();
